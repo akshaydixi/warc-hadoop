@@ -1,4 +1,4 @@
-package cascading.warc;
+package com.martinkl.warc;
 
 import cascading.flow.FlowDef;
 import cascading.flow.FlowProcess;
@@ -12,9 +12,6 @@ import cascading.tap.Tap;
 import cascading.tuple.Tuple;
 import com.backtype.support.FSTestCase;
 import com.google.common.io.CountingOutputStream;
-import com.martinkl.warc.WARCFileReader;
-import com.martinkl.warc.WARCRecord;
-import com.martinkl.warc.WARCWritable;
 import com.martinkl.warc.mapred.WARCInputFormat;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataOutputStream;

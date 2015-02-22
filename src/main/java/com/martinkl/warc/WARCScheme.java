@@ -1,4 +1,4 @@
-package cascading.warc;
+package com.martinkl.warc;
 
 import cascading.flow.FlowProcess;
 import cascading.scheme.Scheme;
@@ -6,7 +6,6 @@ import cascading.scheme.SinkCall;
 import cascading.scheme.SourceCall;
 import cascading.tap.Tap;
 import cascading.tuple.Tuple;
-import com.martinkl.warc.WARCWritable;
 import com.martinkl.warc.mapred.WARCInputFormat;
 import com.martinkl.warc.mapred.WARCOutputFormat;
 import org.apache.hadoop.fs.Path;

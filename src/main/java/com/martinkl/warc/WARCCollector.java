@@ -1,11 +1,10 @@
-package cascading.warc;
+package com.martinkl.warc;
 
 import cascading.flow.FlowProcess;
 import cascading.flow.hadoop.HadoopFlowProcess;
 import cascading.tap.Tap;
 import cascading.tap.TapException;
 import cascading.tuple.TupleEntrySchemeCollector;
-import com.martinkl.warc.WARCWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.mapred.*;
 

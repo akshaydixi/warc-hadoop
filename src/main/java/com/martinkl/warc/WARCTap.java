@@ -1,4 +1,4 @@
-package cascading.warc;
+package com.martinkl.warc;
 
 import cascading.flow.FlowProcess;
 import cascading.tap.Tap;
@@ -6,6 +6,7 @@ import cascading.tap.hadoop.io.HadoopTupleEntrySchemeIterator;
 import cascading.tuple.TupleEntryIterator;
 import cascading.tuple.TupleEntryCollector;
 import java.io.IOException;
+
 import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.mapred.RecordReader;
 import org.apache.hadoop.mapred.OutputCollector;
